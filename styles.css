@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 32rem;
+    height: 25rem;
+    margin-top: 10rem;
+}
+
+.left-image img {
+    width: 240px;
+    height: 25rem;
+    border-radius: 15px 0 0 15px;
+}
+
+.right-text {
+    margin: 1rem;
+}
+
+.right-text p {
+    margin: 0;
+    color: hsl(228 12% 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.right-text h2 {
+    margin: 10px 0;
+    padding-bottom: 0;
+    font-size: 26px;
+    font-weight: 700;  
+    font-family: 'Fraunces', sans-serif;
+}
+
+.main-text {
+    font-size: 12px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    
+    
+}
+
+.prices h3 {
+    font-size: 32px;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 500;
+    color: hsl(158, 36%, 37%);
+}
+
+.prices p {
+   text-decoration: line-through;
+}
+
+.right-text button {
+    background-color: hsl(158, 36%, 37%);
+    height: 40px;
+    width: 220px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    gap: 1rem;
+    
+}
+
+.right-text button img {
+    
+}
+
+@media all and(max-width: 375px) {
+    main {
+        display: block;
+       
+    }
+
+    .left-image img {
+        width: 25rem;
+        height: 15rem;
+    }
+
+}
